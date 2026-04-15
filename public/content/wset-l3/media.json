@@ -1,0 +1,50 @@
+[
+  {
+    "id": "media-001",
+    "subjectId": "wset-l3",
+    "topicId": "bordeaux",
+    "type": "podcast",
+    "title": "Understanding Bordeaux: left vs right bank",
+    "description": "A deep dive into what separates the Cabernet-dominant Left Bank from the Merlot-dominant Right Bank, covering soils, climate, and key appellations.",
+    "url": "https://open.spotify.com/episode/placeholder",
+    "sourceType": "spotify",
+    "durationMins": 28,
+    "tags": ["bordeaux", "left-bank", "right-bank", "grapes"]
+  },
+  {
+    "id": "media-002",
+    "subjectId": "wset-l3",
+    "topicId": "burgundy",
+    "type": "podcast",
+    "title": "Burgundy's Grand Cru hierarchy explained",
+    "description": "From Bourgogne Régionale to Grand Cru — how the Burgundy classification system works and what it means for the wine in the glass.",
+    "url": "https://open.spotify.com/episode/placeholder",
+    "sourceType": "spotify",
+    "durationMins": 34,
+    "tags": ["burgundy", "classification", "grand-cru"]
+  },
+  {
+    "id": "media-003",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-france",
+    "type": "image",
+    "title": "Wine regions of France",
+    "description": "Overview map of all major French wine regions.",
+    "url": "https://example.com/maps/france-wine-regions.svg",
+    "sourceType": "self-hosted",
+    "durationMins": null,
+    "tags": ["france", "geography", "map"]
+  },
+  {
+    "id": "media-004",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-france",
+    "type": "pdf",
+    "title": "WSET L3 SAT tasting grid",
+    "description": "The Systematic Approach to Tasting grid as used in the WSET Level 3 examination. Print and use for practice tastings.",
+    "url": "https://example.com/pdfs/sat-grid.pdf",
+    "sourceType": "pdf",
+    "durationMins": null,
+    "tags": ["sat", "tasting", "exam-technique"]
+  }
+]

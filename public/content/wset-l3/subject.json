@@ -1,0 +1,20 @@
+{
+  "id": "wset-l3",
+  "version": "1.0.0",
+  "title": "WSET Level 3 Award in Wines",
+  "description": "A comprehensive preparation platform for the WSET Level 3 Award in Wines. Study by topic, test your knowledge with practice quizzes, and track your progress toward exam readiness.",
+  "heroImage": null,
+  "passThreshold": 65,
+  "weakTopicThreshold": 60,
+  "examDurationMins": 120,
+  "topics": [
+    { "id": "wines-of-france", "title": "Wines of France", "parentId": null, "order": 1 },
+    { "id": "bordeaux",        "title": "Bordeaux",        "parentId": "wines-of-france", "order": 1 },
+    { "id": "burgundy",        "title": "Burgundy",        "parentId": "wines-of-france", "order": 2 },
+    { "id": "champagne",       "title": "Champagne",       "parentId": "wines-of-france", "order": 3 },
+    { "id": "rhone",           "title": "Rhône Valley",    "parentId": "wines-of-france", "order": 4 },
+    { "id": "wines-of-italy",  "title": "Wines of Italy",  "parentId": null, "order": 2 },
+    { "id": "wines-of-spain",  "title": "Wines of Spain",  "parentId": null, "order": 3 },
+    { "id": "fortified",       "title": "Fortified wines", "parentId": null, "order": 4 }
+  ]
+}

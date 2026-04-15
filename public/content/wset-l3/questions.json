@@ -1,0 +1,218 @@
+[
+  {
+    "id": "q-bx-001",
+    "subjectId": "wset-l3",
+    "topicId": "bordeaux",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "Which river divides Bordeaux into its Left Bank and Right Bank wine regions?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "The Dordogne" },
+      { "id": "b", "text": "The Garonne" },
+      { "id": "c", "text": "The Gironde" },
+      { "id": "d", "text": "The Loire" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The **Gironde estuary** divides Bordeaux into its Left Bank (Médoc, Graves) and Right Bank (Saint-Émilion, Pomerol). The Gironde is formed by the confluence of the Garonne and Dordogne rivers upstream.",
+    "tags": ["geography", "bordeaux", "rivers"]
+  },
+  {
+    "id": "q-bx-002",
+    "subjectId": "wset-l3",
+    "topicId": "bordeaux",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "Which grape variety dominates red wine blends on Bordeaux's Left Bank?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "Merlot" },
+      { "id": "b", "text": "Cabernet Franc" },
+      { "id": "c", "text": "Cabernet Sauvignon" },
+      { "id": "d", "text": "Malbec" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "**Cabernet Sauvignon** dominates Left Bank blends, particularly in the Médoc appellations (Pauillac, Saint-Estèphe, Saint-Julien, Margaux). The cooler, gravelly soils suit its late ripening. Merlot dominates the Right Bank instead.",
+    "tags": ["grapes", "bordeaux", "left-bank", "blending"]
+  },
+  {
+    "id": "q-bx-003",
+    "subjectId": "wset-l3",
+    "topicId": "bordeaux",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "The 1855 Classification ranked châteaux primarily on the basis of what criterion?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "Soil composition and terroir quality" },
+      { "id": "b", "text": "Price achieved at market" },
+      { "id": "c", "text": "Wine critic scores" },
+      { "id": "d", "text": "Vineyard size and yield" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The **1855 Classification** ranked 61 Médoc châteaux (plus Haut-Brion from Graves) into five growths based primarily on the **price their wines commanded at the time** — considered a reliable proxy for quality. It remains largely unchanged today, with Mouton Rothschild's promotion to First Growth in 1973 the sole exception.",
+    "tags": ["classification", "bordeaux", "history"]
+  },
+  {
+    "id": "q-bg-001",
+    "subjectId": "wset-l3",
+    "topicId": "burgundy",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "What is the primary red grape variety of Burgundy?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "Cabernet Sauvignon" },
+      { "id": "b", "text": "Gamay" },
+      { "id": "c", "text": "Pinot Noir" },
+      { "id": "d", "text": "Syrah" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "**Pinot Noir** is the sole permitted red grape in the Côte d'Or appellations of Burgundy. Gamay is used in Beaujolais (technically part of greater Burgundy) and in Bourgogne Passetoutgrains blends.",
+    "tags": ["grapes", "burgundy", "pinot-noir"]
+  },
+  {
+    "id": "q-bg-002",
+    "subjectId": "wset-l3",
+    "topicId": "burgundy",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "Which appellation accounts for the largest volume of Chablis production?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "Petit Chablis" },
+      { "id": "b", "text": "Chablis" },
+      { "id": "c", "text": "Chablis Premier Cru" },
+      { "id": "d", "text": "Chablis Grand Cru" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The straight **Chablis** appellation accounts for the largest share of production. Petit Chablis covers less favourable outlying soils, while Premier Cru and Grand Cru represent progressively smaller, higher-quality sites. Grand Cru covers only around 100 hectares across seven named climats.",
+    "tags": ["chablis", "burgundy", "appellations"]
+  },
+  {
+    "id": "q-bg-003",
+    "subjectId": "wset-l3",
+    "topicId": "burgundy",
+    "type": "mcq",
+    "difficulty": 3,
+    "stem": "Which soil type is most associated with the grands crus of the Côte de Nuits?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "Sandy loam over granite" },
+      { "id": "b", "text": "Clay and limestone over Jurassic bedrock" },
+      { "id": "c", "text": "Volcanic basalt" },
+      { "id": "d", "text": "Alluvial gravel over clay" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The grands crus of the Côte de Nuits sit on **clay and limestone soils over Jurassic-era limestone bedrock**. The mid-slope position provides ideal drainage. The precise mix of clay and limestone at each site is a key determinant of style — more clay gives fuller, richer wines; more limestone gives finesse.",
+    "tags": ["soils", "burgundy", "cote-de-nuits", "terroir"]
+  },
+  {
+    "id": "q-ch-001",
+    "subjectId": "wset-l3",
+    "topicId": "champagne",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "Which of the following is NOT one of the three main grape varieties permitted in Champagne?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "Chardonnay" },
+      { "id": "b", "text": "Pinot Gris" },
+      { "id": "c", "text": "Pinot Noir" },
+      { "id": "d", "text": "Pinot Meunier" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The three main Champagne varieties are **Chardonnay, Pinot Noir, and Pinot Meunier**. Pinot Gris is not among them, though it is one of several minor varieties also technically permitted. A Blanc de Blancs is made solely from Chardonnay; a Blanc de Noirs from the red-skinned varieties only.",
+    "tags": ["champagne", "grapes", "varieties"]
+  },
+  {
+    "id": "q-ch-002",
+    "subjectId": "wset-l3",
+    "topicId": "champagne",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "What does the term 'Non-Vintage' (NV) mean in the context of Champagne?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "The wine is made entirely from a single harvest year" },
+      { "id": "b", "text": "The wine is blended across multiple harvest years using reserve wines" },
+      { "id": "c", "text": "The wine is produced from a single Grand Cru village" },
+      { "id": "d", "text": "The wine has not been aged on its lees" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "**Non-Vintage Champagne** is blended across multiple years using reserve wines from previous harvests. This allows houses to maintain a consistent house style regardless of annual vintage variation. NV must be aged for a minimum of 15 months, of which at least 12 must be on the lees.",
+    "tags": ["champagne", "non-vintage", "blending", "winemaking"]
+  },
+  {
+    "id": "q-rh-001",
+    "subjectId": "wset-l3",
+    "topicId": "rhone",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "Which grape variety is responsible for the red wines of Hermitage and Côte-Rôtie in the Northern Rhône?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "Grenache" },
+      { "id": "b", "text": "Mourvèdre" },
+      { "id": "c", "text": "Syrah" },
+      { "id": "d", "text": "Cinsault" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "**Syrah** is the sole red grape of the Northern Rhône, producing the celebrated reds of Hermitage, Côte-Rôtie, Crozes-Hermitage, and Saint-Joseph. In Côte-Rôtie, small amounts of white Viognier may be co-fermented with Syrah to add aromatic complexity.",
+    "tags": ["rhone", "northern-rhone", "syrah", "grapes"]
+  },
+  {
+    "id": "q-rh-002",
+    "subjectId": "wset-l3",
+    "topicId": "rhone",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "What is the dominant grape variety in Châteauneuf-du-Pape red wines?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "Syrah" },
+      { "id": "b", "text": "Mourvèdre" },
+      { "id": "c", "text": "Grenache" },
+      { "id": "d", "text": "Cinsault" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "**Grenache** is the dominant variety in Châteauneuf-du-Pape, typically forming the backbone of blends. Up to 18 grape varieties are permitted in the appellation. Syrah and Mourvèdre are common blending partners, adding structure and colour.",
+    "tags": ["rhone", "southern-rhone", "chateauneuf", "grenache"]
+  },
+  {
+    "id": "q-ft-001",
+    "subjectId": "wset-l3",
+    "topicId": "fortified",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "At what stage is grape spirit added during the production of Port wine?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "Before fermentation begins" },
+      { "id": "b", "text": "During fermentation, to arrest it" },
+      { "id": "c", "text": "After fermentation is complete" },
+      { "id": "d", "text": "During barrel ageing" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Grape spirit (aguardente) is added **during fermentation**, typically when the wine reaches around 6–8% alcohol. This kills the yeast and arrests fermentation, leaving residual sugar in the wine. The resulting Port is sweet, with the spirit raising the final alcohol to around 19–22% ABV.",
+    "tags": ["port", "fortified", "winemaking", "fermentation"]
+  },
+  {
+    "id": "q-ft-002",
+    "subjectId": "wset-l3",
+    "topicId": "fortified",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "Which style of Sherry is completely dry and produced under a layer of flor yeast?",
+    "media": null,
+    "options": [
+      { "id": "a", "text": "Oloroso" },
+      { "id": "b", "text": "Amontillado" },
+      { "id": "c", "text": "Pedro Ximénez" },
+      { "id": "d", "text": "Fino" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "**Fino** Sherry is completely dry and aged entirely under a protective layer of flor — a film of yeast that forms on the wine's surface. The flor consumes glycerol and protects the wine from oxidation, resulting in a pale, delicate, and bone-dry style. Manzanilla is a Fino produced specifically in Sanlúcar de Barrameda.",
+    "tags": ["sherry", "fortified", "fino", "flor"]
+  }
+]
