@@ -10,13 +10,7 @@ import { Flashcards } from './views/Flashcards/index.jsx'
 import { Media } from './views/Media/index.jsx'
 import { Results } from './views/Results/index.jsx'
 
-const VIEWS = {
-  dashboard:  Dashboard,
-  quiz:       Quiz,
-  flashcards: Flashcards,
-  media:      Media,
-  results:    Results,
-}
+const VIEWS = { dashboard: Dashboard, quiz: Quiz, flashcards: Flashcards, media: Media, results: Results }
 
 export default function App() {
   const { appCfg, subject, questions, media, loading, error } = useContent()
@@ -26,24 +20,13 @@ export default function App() {
   if (loading) return <LoadingScreen />
   if (error)   return <ErrorScreen onRetry={() => window.location.reload()} />
 
-  const isFirstRun =
-    Object.keys(progress.questionHistory).length === 0 &&
-    sessions.length === 0
-
-  const appConfig = {
-    ...appCfg.app,
-    subjectTitle: subject.title,
-  }
+  const isFirstRun = Object.keys(progress.questionHistory).length === 0 && sessions.length === 0
+  const appConfig  = { ...appCfg.app, subjectTitle: subject.title }
 
   if (isFirstRun && currentView === 'dashboard') {
     return (
       <>
-        <NavBar
-          currentView={currentView}
-          onNavigate={navigate}
-          user={null}
-          appConfig={appConfig}
-        />
+        <NavBar currentView={currentView} onNavigate={navigate} user={null} appConfig={appConfig} />
         <main className="app-main">
           <Welcome subject={subject} onStart={() => navigate('dashboard')} />
         </main>
@@ -55,24 +38,13 @@ export default function App() {
 
   return (
     <>
-      <NavBar
-        currentView={currentView}
-        onNavigate={navigate}
-        user={null}
-        appConfig={appConfig}
-      />
+      <NavBar currentView={currentView} onNavigate={navigate} user={null} appConfig={appConfig} />
       <main className="app-main">
         <ViewComponent
-          subject={subject}
-          questions={questions}
-          media={media}
-          progress={progress}
-          sessions={sessions}
-          prefs={prefs}
-          onSaveAttempt={saveAttempt}
-          onSaveSession={saveSession}
-          onSavePrefs={savePrefs}
-          onNavigate={navigate}
+          subject={subject} questions={questions} media={media}
+          progress={progress} sessions={sessions} prefs={prefs}
+          onSaveAttempt={saveAttempt} onSaveSession={saveSession}
+          onSavePrefs={savePrefs} onNavigate={navigate}
         />
       </main>
     </>

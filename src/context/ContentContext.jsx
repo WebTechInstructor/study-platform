@@ -1,16 +1,12 @@
 import { createContext, useContext, useState, useEffect } from 'react'
-
 const ContentContext = createContext(null)
-
 export function ContentProvider({ children }) {
-  const [content, setContent]   = useState(null)
-  const [loading, setLoading]   = useState(true)
-  const [error, setError]       = useState(null)
-
+  const [content, setContent] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const [error,   setError]   = useState(null)
   useEffect(() => {
     let attempts = 0
     const base = import.meta.env.BASE_URL
-
     async function load() {
       try {
         const [appCfg, subject, questions, media] = await Promise.all([
@@ -22,24 +18,12 @@ export function ContentProvider({ children }) {
         setContent({ appCfg, subject, questions, media })
         setLoading(false)
       } catch (err) {
-        if (attempts === 0) {
-          attempts++
-          setTimeout(load, 1500) // silent retry once
-        } else {
-          setError(err)
-          setLoading(false)
-        }
+        if (attempts === 0) { attempts++; setTimeout(load, 1500) }
+        else { setError(err); setLoading(false) }
       }
     }
-
     load()
   }, [])
-
-  return (
-    <ContentContext.Provider value={{ ...content, loading, error }}>
-      {children}
-    </ContentContext.Provider>
-  )
+  return <ContentContext.Provider value={{ ...content, loading, error }}>{children}</ContentContext.Provider>
 }
-
 export const useContent = () => useContext(ContentContext)
