@@ -39,9 +39,20 @@ function EmbedPlayer({ item }) {
 function MapPreview({ item }) {
   return (
     <div style={{ borderTop: '0.5px solid var(--border)' }}>
-      <div style={{ height: 160, background: 'var(--bg-raised)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <span style={{ fontSize: 12, color: 'var(--text-3)' }}>Map preview</span>
-      </div>
+      <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}>
+        <img
+          src={item.url}
+          alt={item.title}
+          style={{ width: '100%', display: 'block', maxHeight: 320, objectFit: 'contain', background: 'var(--bg-raised)' }}
+          onError={e => {
+            e.currentTarget.style.display = 'none'
+            e.currentTarget.nextSibling.style.display = 'flex'
+          }}
+        />
+        <div style={{ display: 'none', height: 120, alignItems: 'center', justifyContent: 'center', background: 'var(--bg-raised)' }}>
+          <span style={{ fontSize: 12, color: 'var(--text-3)' }}>Image unavailable</span>
+        </div>
+      </a>
       <div style={{ display: 'flex', gap: 6, padding: '10px 14px', borderTop: '0.5px solid var(--border)' }}>
         <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ flex:1, padding:'8px 0', textAlign:'center', fontSize:12, borderRadius:'var(--radius-md)', border:'0.5px solid var(--border-2)', background:'var(--bg-card)', color:'var(--text)', textDecoration:'none' }}>Open full screen</a>
         <a href={item.url} download style={{ flex:1, padding:'8px 0', textAlign:'center', fontSize:12, borderRadius:'var(--radius-md)', border:'0.5px solid var(--border-2)', background:'var(--bg-card)', color:'var(--text)', textDecoration:'none' }}>Download</a>

@@ -8,13 +8,17 @@
   "weakTopicThreshold": 60,
   "examDurationMins": 120,
   "topics": [
-    { "id": "wines-of-france", "title": "Wines of France", "parentId": null, "order": 1 },
-    { "id": "bordeaux",        "title": "Bordeaux",        "parentId": "wines-of-france", "order": 1 },
-    { "id": "burgundy",        "title": "Burgundy",        "parentId": "wines-of-france", "order": 2 },
-    { "id": "champagne",       "title": "Champagne",       "parentId": "wines-of-france", "order": 3 },
-    { "id": "rhone",           "title": "Rhône Valley",    "parentId": "wines-of-france", "order": 4 },
-    { "id": "wines-of-italy",  "title": "Wines of Italy",  "parentId": null, "order": 2 },
-    { "id": "wines-of-spain",  "title": "Wines of Spain",  "parentId": null, "order": 3 },
-    { "id": "fortified",       "title": "Fortified wines", "parentId": null, "order": 4 }
+    { "id": "wines-of-france",     "title": "Wines of France",       "parentId": null,            "order": 1 },
+    { "id": "bordeaux",            "title": "Bordeaux",              "parentId": "wines-of-france","order": 1 },
+    { "id": "burgundy",            "title": "Burgundy",              "parentId": "wines-of-france","order": 2 },
+    { "id": "champagne",           "title": "Champagne",             "parentId": "wines-of-france","order": 3 },
+    { "id": "rhone",               "title": "Rhône Valley",          "parentId": "wines-of-france","order": 4 },
+    { "id": "wines-of-italy",      "title": "Wines of Italy",        "parentId": null,            "order": 2 },
+    { "id": "wines-of-spain",      "title": "Wines of Spain",        "parentId": null,            "order": 3 },
+    { "id": "fortified",           "title": "Fortified wines",       "parentId": null,            "order": 4 },
+    { "id": "wines-of-world",      "title": "Wines of the World",    "parentId": null,            "order": 5 },
+    { "id": "viticulture",         "title": "Viticulture",           "parentId": null,            "order": 6 },
+    { "id": "vinification",        "title": "Vinification",          "parentId": null,            "order": 7 },
+    { "id": "tasting-methodology", "title": "Tasting methodology",   "parentId": null,            "order": 8 }
   ]
 }
