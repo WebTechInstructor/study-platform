@@ -340,7 +340,26 @@ q-ft-011  Cava: traditional method DO across non-contiguous Spanish areas; Macab
 q-ft-012  Asti DOCG: Muscat Blanc à Petits Grains, Asti method, sweet, ~7% abv, no autolytic character, drink young
 q-ft-013  Port foot treading: short 24–36 hour fermentation demands rapid extraction; robotic lagares imitate this
 q-ft-014  Unaged Muscat: inert vessels, oxygen protection, pure varietal; Aged Muscat: oxidative in old oak, amber to brown, retains Muscat notes
-
+q-ww-041  Riesling = most planted in Germany; only GG variety in Mosel and Nahe
+q-ww-042  German PDO classification based on minimum must weight at harvest, not variety or region
+q-ww-043  Eiswein: frozen grapes, no noble rot required; focus on varietal purity and acidity/sweetness balance
+q-ww-044  Spätburgunder = Pinot Noir; particularly important in Pfalz and Baden
+q-ww-045  Trocken = dry; halbtrocken = off-dry/medium; feinherb = not legally defined alternative
+q-ww-046  Franken: Silvaner most prestigious (not Riesling); distinctive flask-shaped bottles (Bocksbeutel)
+q-ww-047  Best German sites: steep south-facing slopes; rivers provide reflected light + frost protection via air movement
+q-ww-048  Grosses Gewächs (GG): VDP trademark (not wine law); best dry wines from classified sites; GG + embossed grapes on neck
+q-ww-049  Kabinett: most delicate, light, high acid, 8–9% abv sweet; Spätlese: more concentrated, riper, more body/alcohol
+q-ww-050  Mosel: steep slopes, slate soils, river proximity → lightest body, lowest alcohol, highest acidity; floral and green fruit
+q-ww-051  Germany's cool climate supports sweet wines: long ripening retains acidity; noble rot develops in right conditions
+q-ww-052  Pfalz: driest German region due to Haardt Mountains rain shadow; water stress risk in warm years
+q-ww-053  BA: noble rot typical but not essential; TBA: noble rot essential — only way to reach required must weight
+q-ww-054  Baden: warmest region, fullest-bodied wines, highest alcohol; paradox = Riesling only 4th most planted (behind Spätburgunder, MT, Grauburgunder)
+q-ww-055  Süssreserve = unfermented grape juice added post-fermentation; not used for quality Kabinett — early fermentation stop gives better sugar/acid integration
+q-ww-056  Rheingau: medium-full body, distinct ripe peach character; southerly aspect + Taunus hills protection = optimal ripening
+q-ww-057  Rheinhessen: largest German region; broad range of varieties; ~30% black grapes
+q-ww-058  German label: village + vineyard name; limitation = single vineyard and multi-vineyard blend labelled identically — no distinction visible
+q-ww-059  Prädikat = indicator of style (ripeness/concentration from must weight), not sweetness; same must weight can yield dry to medium-sweet depending on fermentation
+q-ww-060  Silvaner in Franken: paradoxically the most prestigious variety despite low national status; early flowering = frost risk → planted only in warmest sites
 ```
 
 When generating for a topic that already has questions, read this list carefully and ensure your new questions test different concepts, appellations, or aspects of the same topic.

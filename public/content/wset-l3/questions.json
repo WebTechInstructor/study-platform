@@ -7725,5 +7725,809 @@
       "oxidative-ageing",
       "fortified-wine"
     ]
+  },
+  {
+    "id": "q-ww-041",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "What is the most widely planted grape variety in Germany, and in which region is it the only variety permitted for Grosses Gew\u00e4chs (GG) wines?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Riesling; it is the only variety permitted for GG wines in the Mosel"
+      },
+      {
+        "id": "b",
+        "text": "M\u00fcller-Thurgau; it is the only GG variety permitted in Mosel"
+      },
+      {
+        "id": "c",
+        "text": "Silvaner; it is the only GG variety permitted in Franken"
+      },
+      {
+        "id": "d",
+        "text": "Sp\u00e4tburgunder; it is the only variety permitted for GG wines in Baden"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "**Riesling is the most widely planted grape variety in Germany** and is the **only variety permitted for GG wines in the Mosel**. It is also the sole GG variety permitted in Nahe. In other regions such as Rheingau, Rheinhessen, and Pfalz, additional varieties such as Sp\u00e4tburgunder may also qualify for GG designation.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "riesling",
+      "mosel",
+      "grosses-gewachs"
+    ]
+  },
+  {
+    "id": "q-ww-042",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "What is the key criterion used to classify Pr\u00e4dikatswein categories in Germany?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The region in which the grapes are grown"
+      },
+      {
+        "id": "b",
+        "text": "The minimum must weight (level of sugar in the grape juice) at harvest"
+      },
+      {
+        "id": "c",
+        "text": "The grape variety used to make the wine"
+      },
+      {
+        "id": "d",
+        "text": "The alcohol level achieved in the finished wine"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "German PDO wines are classified by **minimum must weight \u2014 the level of sugar in the grape juice at harvest**. This determines which of the two fundamental levels (Qualit\u00e4tswein or Pr\u00e4dikatswein) and which specific Pr\u00e4dikat category (Kabinett, Sp\u00e4tlese, Auslese, BA, Eiswein, or TBA) a wine qualifies for. German PDO regions are not linked to specific grape varieties as in the French appellation system.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "pradikatswein",
+      "must-weight",
+      "wine-laws"
+    ]
+  },
+  {
+    "id": "q-ww-043",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "Which Pr\u00e4dikat category requires grapes to be picked frozen on the vine, and what is distinctive about its flavour profile compared with TBA?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Beerenauslese (BA); like TBA it relies on noble rot for its characteristic dried fruit flavours"
+      },
+      {
+        "id": "b",
+        "text": "Kabinett; grapes must be picked in the first frost of autumn to achieve a low must weight"
+      },
+      {
+        "id": "c",
+        "text": "Eiswein; it is made infrequently, noble rot is not a key component, and the focus is on varietal purity and a fine balance between acidity and sweetness"
+      },
+      {
+        "id": "d",
+        "text": "Trockenbeerenauslese (TBA); noble rot is not a component and the focus is on concentrated dried fruit character"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "**Eiswein** is made from grapes picked frozen on the vine. It is a genuine rarity and made infrequently. Crucially, **noble rot is not a key component of Eiswein** \u2014 unlike BA and TBA \u2014 and the focus is instead on **varietal purity and a fine balance between acidity and sweetness**. Winemakers avoid processes that could mask grape flavours such as MLF or new oak. TBA, by contrast, requires noble rot to achieve its must weights.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "eiswein",
+      "pradikatswein",
+      "sweet-wine"
+    ]
+  },
+  {
+    "id": "q-ww-044",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "What is Sp\u00e4tburgunder, and in which two German regions is it particularly important?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Sp\u00e4tburgunder is the German name for Pinot Gris; it is particularly important in Rheinhessen and Franken"
+      },
+      {
+        "id": "b",
+        "text": "Sp\u00e4tburgunder is the German name for Meunier; it is particularly important in Rheingau and Pfalz"
+      },
+      {
+        "id": "c",
+        "text": "Sp\u00e4tburgunder is a crossing between Riesling and Pinot Noir; it is particularly important in Mosel and Nahe"
+      },
+      {
+        "id": "d",
+        "text": "Sp\u00e4tburgunder is the German name for Pinot Noir; it is particularly important in Pfalz and Baden"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "**Sp\u00e4tburgunder is the German name for Pinot Noir**, the third most planted variety in Germany overall. It **thrives in the warmer vineyard areas** and is **particularly important in Pfalz and Baden**. In Baden it is the most widely planted variety. Wines are dry and either relatively light and fruity or made in a more concentrated style that often includes oak aromas.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "spatburgunder",
+      "pinot-noir",
+      "pfalz",
+      "baden"
+    ]
+  },
+  {
+    "id": "q-ww-045",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "What are the German wine label terms for dry and off-dry/medium wines?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Trocken for dry; halbtrocken (or feinherb) for off-dry/medium"
+      },
+      {
+        "id": "b",
+        "text": "Kabinett for dry; Sp\u00e4tlese for off-dry/medium"
+      },
+      {
+        "id": "c",
+        "text": "Qualit\u00e4tswein for dry; Pr\u00e4dikatswein for off-dry/medium"
+      },
+      {
+        "id": "d",
+        "text": "Landwein for dry; Deutscher Wein for off-dry/medium"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Dry German wines may be labelled **trocken**, while off-dry or medium wines may be labelled **halbtrocken**. Some producers feel halbtrocken has a negative association with lower quality wines and prefer the term **feinherb** instead \u2014 though unlike the other two, feinherb is not legally defined. Many wines carry no sweetness indication on the label, but this can often be deduced from the wine category or the alcohol level.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "trocken",
+      "halbtrocken",
+      "labelling"
+    ]
+  },
+  {
+    "id": "q-ww-046",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "In which German region is Silvaner (rather than Riesling) considered the most prestigious grape variety, and what is distinctive about this region's bottles?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Rheinhessen; wines are bottled in tall dark green flute-shaped bottles"
+      },
+      {
+        "id": "b",
+        "text": "Franken; wines are bottled in distinctive flask-shaped bottles"
+      },
+      {
+        "id": "c",
+        "text": "Baden; wines are bottled in heavy Burgundy-style bottles due to the fuller-bodied wine style"
+      },
+      {
+        "id": "d",
+        "text": "Mosel; wines are bottled in distinctive tall brown bottles to protect from light damage"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "In **Franken**, **Silvaner (not Riesling) is the most prestigious grape variety**. Unlike most of Germany, Riesling is neither the most widely planted nor the most esteemed here. The best wines from south-facing slopes around W\u00fcrzburg are dry with richness on the palate and often an earthy quality. Franken wines are bottled in **distinctive flask-shaped bottles** known as Bocksbeutel.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "franken",
+      "silvaner",
+      "bocksbeutel"
+    ]
+  },
+  {
+    "id": "q-ww-047",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "Why are the best German vineyard sites found on steep, often stony, south-facing slopes, and what additional benefit do river-adjacent vineyards receive?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Steep south-facing slopes drain well, reducing fungal disease; rivers provide irrigation during Germany's dry summers"
+      },
+      {
+        "id": "b",
+        "text": "Steep slopes have thinner soils that reduce yields and concentrate flavours; rivers moderate temperatures, creating a maritime microclimate"
+      },
+      {
+        "id": "c",
+        "text": "Steep south-facing slopes maximise available heat and sunlight in Germany's cool climate; river-adjacent vineyards benefit from reflected sunlight and air movement from flowing water that helps protect against frosts"
+      },
+      {
+        "id": "d",
+        "text": "South-facing slopes face away from the rain-bearing westerly winds; rivers channel cold air away from the vineyards preventing spring frosts"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The materials explain that in Germany's **marginal cool continental climate**, small differences in vineyard location have significant quality impacts. **Steep south-facing slopes maximise available heat and sunlight**. Where vineyards are located near a river, **reflected sunlight can help grapes ripen**, and **the air movement created by flowing water can help protect against frosts**. These steep vineyards must be worked by hand, with equipment manoeuvred by winches on the most extreme slopes.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "viticulture",
+      "slope",
+      "river",
+      "frost-protection"
+    ]
+  },
+  {
+    "id": "q-ww-048",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "What is the Grosses Gew\u00e4chs (GG) designation, and who administers it?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "GG is a legally defined German PDO category equivalent to grand cru; it is administered by the German government and appears on all qualifying wines"
+      },
+      {
+        "id": "b",
+        "text": "GG is a voluntary EU label indicating that the wine was produced using sustainable viticulture practices in one of Germany's 13 PDO regions"
+      },
+      {
+        "id": "c",
+        "text": "GG is a legally defined category within the Pr\u00e4dikatswein system indicating the highest must weight level, above TBA"
+      },
+      {
+        "id": "d",
+        "text": "GG is a trademark of the VDP (Verband Deutscher Pr\u00e4dikatsweing\u00fcter), an independent producer group; it indicates the best dry wines made from classified vineyard sites and is indicated by the letters GG and embossed grapes on the bottle neck"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "**Grosses Gew\u00e4chs (GG)** is a **trademark of the VDP** (Verband Deutscher Pr\u00e4dikatsweing\u00fcter), an **independent group of German wine producers**, not part of German wine law. Members have classified their vineyards \u2014 by consensus including the vast majority of Germany's best sites \u2014 and GG indicates **the best dry wines made from these classified sites**. It is indicated by the **letters GG and a bunch of grapes embossed on the bottle neck**. GG permitted varieties vary by region.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "grosses-gewachs",
+      "vdp",
+      "classification"
+    ]
+  },
+  {
+    "id": "q-ww-049",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "How does the Kabinett style of Riesling differ from Sp\u00e4tlese, and what alcohol range do sweet Kabinett wines typically show?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Kabinett wines are the most delicate Pr\u00e4dikatsweine \u2014 lighter in body with high acidity and green apple or citrus flavours; Sp\u00e4tlese wines are more concentrated, riper and have more body, alcohol, and (where relevant) sweetness; sweet Kabinett typically shows 8\u20139% abv"
+      },
+      {
+        "id": "b",
+        "text": "Kabinett is always dry; Sp\u00e4tlese is always sweet; sweet Kabinett wines reach 14\u201315% abv"
+      },
+      {
+        "id": "c",
+        "text": "Kabinett wines are made from late-harvested grapes; Sp\u00e4tlese wines are made from early-harvested grapes to retain acidity; both typically show 13\u201314% abv"
+      },
+      {
+        "id": "d",
+        "text": "Kabinett wines are made by the carbonic maceration technique; Sp\u00e4tlese wines are fermented normally; both are always dry"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "**Kabinett wines are the most delicate Pr\u00e4dikatsweine** \u2014 light in body with high acidity and flavours of green apple or citrus fruit, often balanced with residual sweetness. Sweet styles typically have **alcohol between 8\u20139% abv** (drier styles can reach 12% abv). **Sp\u00e4tlese wines are more concentrated, riper, and have more body, alcohol, and sweetness** than Kabinett from the same region \u2014 with citrus and stone fruit (peach, apricot) as common characteristics.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "kabinett",
+      "spatlese",
+      "pradikatswein"
+    ]
+  },
+  {
+    "id": "q-ww-050",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "What makes Mosel Rieslings typically lighter in body, lower in alcohol, and higher in acidity than Rieslings from Rheingau, Rheinhessen, and Pfalz?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Mosel Rieslings are always harvested earlier than those of other regions, before full sugar ripeness is achieved"
+      },
+      {
+        "id": "b",
+        "text": "The slate soils of the best Mosel vineyards, right next to the river on very steep slopes, combined with the region's cooler microclimate, result in a lighter, more delicate, highly acidic style with floral and green fruit flavours"
+      },
+      {
+        "id": "c",
+        "text": "Mosel regulations require lower maximum alcohol levels and higher minimum acidity than other German regions"
+      },
+      {
+        "id": "d",
+        "text": "Mosel winemakers always add S\u00fcssreserve to lower apparent alcohol, which dilutes the body and increases the perception of freshness"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The materials explain that the best Mosel vineyards are found on **very steep slopes with slate soils right next to the river**. The **cooler Mosel climate** means the region's Rieslings are **typically lighter in body, lower in alcohol, and higher in acidity** than those of Rheingau, Rheinhessen, and Pfalz. **Floral and green fruit flavours predominate**, in contrast to the riper peach character of Rheingau Rieslings or the fuller-bodied styles of Pfalz.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "mosel",
+      "riesling",
+      "slate",
+      "style"
+    ]
+  },
+  {
+    "id": "q-ww-051",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "Why does Germany's cool continental climate actually support the production of great sweet wines, despite making it difficult to achieve full ripeness for dry wines?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The cold winters kill off most vine pests, reducing the need for treatment and enabling drier, healthier grapes suited to botrytis development"
+      },
+      {
+        "id": "b",
+        "text": "The cool climate keeps fermentation temperatures very low, slowing yeast activity so that fermentation stops naturally before all sugars are consumed, creating residual sweetness"
+      },
+      {
+        "id": "c",
+        "text": "The long, cool ripening period allows grapes to reach sugar ripeness while retaining their acidity; when conditions are right, noble rot develops and botrytised sweet wines can be made in every region"
+      },
+      {
+        "id": "d",
+        "text": "Germany's climate produces high levels of rainfall at harvest, which dilutes grapes and reduces alcohol to the low levels required for high-sugar Pr\u00e4dikatsweine"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The cool continental climate creates two advantages for sweet wine production. First, the **long, cool ripening period gives grapes time to reach sugar ripeness while retaining their acidity** \u2014 creating the tension needed for balance in sweet wines. Second, **when conditions are right, noble rot (botrytis) develops and botrytised sweet wines can be made in every region in Germany**. The rain that generally declines in autumn during final ripening further encourages botrytis rather than grey rot.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "botrytis",
+      "sweet-wine",
+      "cool-climate"
+    ]
+  },
+  {
+    "id": "q-ww-052",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "What geographical feature makes the Pfalz the driest of Germany's wine regions, and what problem does this create in very warm years?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The Pfalz is located furthest from the Rhine, so it misses the humidity generated by the river; in very warm years, the lack of moisture causes botrytis rather than healthy ripening"
+      },
+      {
+        "id": "b",
+        "text": "The Pfalz sits in the rain shadow of the Black Forest mountains; in very warm years the lack of rainfall causes premature veraison and uneven ripening"
+      },
+      {
+        "id": "c",
+        "text": "The Pfalz has a semi-arid continental climate caused by its landlocked location far from the Rhine; in very warm years, excessive heat causes sunburn on the grapes"
+      },
+      {
+        "id": "d",
+        "text": "The Pfalz vineyards lie to the east of the Haardt Mountains (a continuation of the Vosges), which shelter them from rain-bearing westerly winds; in very warm years vines can suffer from water stress"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "The Pfalz vineyards **lie to the east of the Haardt Mountains**, which are a continuation of the Vosges. This means the Pfalz **lies in the rain shadow of these mountains**, making it the **driest of Germany's wine regions**. While this generally benefits grape health and ripening, **in very warm years the vines can suffer from water stress** due to insufficient rainfall. The region's vineyards can be seen as a continuation of the Alsace vineyards just across the French border.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "pfalz",
+      "haardt-mountains",
+      "rain-shadow"
+    ]
+  },
+  {
+    "id": "q-ww-053",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "What is the difference between Beerenauslese (BA) and Trockenbeerenauslese (TBA) in terms of the role of noble rot?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Noble rot is not essential for BA (it is possible to reach the minimum must weight without it, though typical); noble rot is essential for TBA as the must weight required cannot be achieved any other way"
+      },
+      {
+        "id": "b",
+        "text": "Noble rot is required for both BA and TBA; TBA requires 100% botrytis-affected berries while BA can include up to 50% healthy berries"
+      },
+      {
+        "id": "c",
+        "text": "Noble rot is required for BA but not for TBA; TBA instead uses sun-dried grapes to achieve its high must weights"
+      },
+      {
+        "id": "d",
+        "text": "Neither BA nor TBA requires noble rot; the difference is simply the level of must weight, with TBA requiring a higher minimum"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The materials draw a careful distinction: **Noble rot is not essential for BA** \u2014 it is possible to reach the minimum must weight without it, though noble rot is typical for these wines. However, **noble rot is essential for TBA** \u2014 the must weights necessary for TBA cannot be achieved without it. Both BA and TBA are sweet only and rank among the best sweet wines in the world, with flavours of honey, dried stone fruit, candied peel, and flowers.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "beerenauslese",
+      "trockenbeerenauslese",
+      "noble-rot"
+    ]
+  },
+  {
+    "id": "q-ww-054",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 3,
+    "stem": "Baden is the warmest German region yet it produces the most full-bodied wines with the highest alcohol. Why is this apparently straightforward, and what is paradoxical about Riesling's position in Baden?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "The warmth is straightforward \u2014 more heat means riper grapes and higher alcohol; paradoxically, Riesling cannot ripen in Baden at all and is absent from the region"
+      },
+      {
+        "id": "b",
+        "text": "The warmth directly results in fuller body and higher alcohol through greater sugar accumulation; paradoxically, Riesling \u2014 Germany's leading variety \u2014 is only the fourth most planted variety in Baden, behind Sp\u00e4tburgunder, M\u00fcller-Thurgau, and Grauburgunder"
+      },
+      {
+        "id": "c",
+        "text": "The warm climate is straightforward; the paradox is that Baden makes sweet wines of equal quality to the Mosel despite being much warmer"
+      },
+      {
+        "id": "d",
+        "text": "The warmth is straightforward; the paradox is that despite being the warmest region, Baden has the smallest vineyard area of any major German region"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Baden's warm, southerly position directly explains why it produces **the fullest-bodied German wines with the highest alcohol** \u2014 warmer conditions ripen grapes to higher sugar levels. The paradox is that **Riesling \u2014 Germany's flagship variety \u2014 comes only fourth in terms of plantings in Baden**, behind Sp\u00e4tburgunder (the most planted), M\u00fcller-Thurgau, and Grauburgunder. Baden's warmth is better suited to Sp\u00e4tburgunder, which has developed a reputation for top quality especially from the Kaiserstuhl.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "baden",
+      "spatburgunder",
+      "riesling",
+      "climate"
+    ]
+  },
+  {
+    "id": "q-ww-055",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 3,
+    "stem": "What is S\u00fcssreserve and why is it explicitly described as not being used for high-quality Kabinett wines?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "S\u00fcssreserve is a concentrated grape must added during fermentation to boost sugar levels; it is avoided in quality wines because it adds colour and tannin"
+      },
+      {
+        "id": "b",
+        "text": "S\u00fcssreserve is a legally defined reserve category of Qualit\u00e4tswein; it is not used for Kabinett because Kabinett is a Pr\u00e4dikatswein category"
+      },
+      {
+        "id": "c",
+        "text": "S\u00fcssreserve is unfermented grape juice added after fermentation to sweeten the wine; it is not used for high-quality wines because the best sweet Kabinetts achieve their sugar/acid balance by stopping fermentation early, which produces a more integrated result"
+      },
+      {
+        "id": "d",
+        "text": "S\u00fcssreserve is a sweetening additive derived from imported grapes; it is banned for Kabinett wines by German wine law"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "**S\u00fcssreserve is unfermented grape juice added after fermentation** to sweeten the wine. The materials specifically state that this is **not a technique used to make high-quality wines**. The best sweet Kabinett wines are instead made by **stopping fermentation early, before the yeast has converted all the sugar to alcohol** \u2014 this achieves a better sugar/acid balance, as the sweetness and acidity develop together and are naturally integrated rather than added as a separate component.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "sussreserve",
+      "kabinett",
+      "sweet-wine-technique"
+    ]
+  },
+  {
+    "id": "q-ww-056",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "In which German region is Riesling particularly noted for producing wines with a medium to full body and a distinct ripe peach character, and what two factors explain this?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Mosel; the slate soils and riverside location concentrate flavours in the grapes"
+      },
+      {
+        "id": "b",
+        "text": "Baden; the warmest German climate ensures full ripeness and peachy character"
+      },
+      {
+        "id": "c",
+        "text": "Pfalz; the rain shadow of the Haardt Mountains creates dry conditions that concentrate stone fruit aromas"
+      },
+      {
+        "id": "d",
+        "text": "Rheingau; most vineyards have a southerly aspect and are protected by the Taunus hills to the north, providing optimal ripening conditions"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "**Rheingau** Rieslings have a **medium to full body and a distinct ripe peach character**. The materials cite two key factors: most vineyards have a **southerly aspect** (lying on the slopes of the north bank of the Rhine and River Main), and they benefit from the **protection offered by the Taunus hills to the north**. Together these provide optimal conditions for ripening grapes. The humid conditions generated by the Rhine also mean some of Germany's best BA and TBA are made here.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "rheingau",
+      "riesling",
+      "taunus-hills"
+    ]
+  },
+  {
+    "id": "q-ww-057",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 1,
+    "stem": "What is the largest vine-growing region in Germany, and what is notable about its range of grape plantings?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Rheinhessen; a very broad range of black and white varieties are planted here, with black varieties making up approximately 30 per cent of plantings"
+      },
+      {
+        "id": "b",
+        "text": "Baden; it produces the widest range of styles due to its large geographic area and warm climate"
+      },
+      {
+        "id": "c",
+        "text": "Mosel; it is planted almost exclusively with Riesling on steep slate slopes"
+      },
+      {
+        "id": "d",
+        "text": "Pfalz; black grapes account for just under 40 per cent of the vineyard area, led by Dornfelder"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "**Rheinhessen is the largest vine-growing region in Germany**. A **very broad range of black and white varieties** are planted here \u2014 M\u00fcller-Thurgau and Riesling are the two most planted of either colour, while **black varieties (mostly Dornfelder, Portugieser, and Sp\u00e4tburgunder) make up approximately 30 per cent of plantings**. The region has gained a reputation for innovation and excellence in recent years. GG wines can be made from Riesling or Sp\u00e4tburgunder.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "rheinhessen",
+      "largest-region",
+      "grape-varieties"
+    ]
+  },
+  {
+    "id": "q-ww-058",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 2,
+    "stem": "How does the German wine labelling system indicate vineyard location, and what is the key limitation of this system?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Village and vineyard names appear on the label; legally, wines must come from a single vineyard plot \u2014 there is no ambiguity"
+      },
+      {
+        "id": "b",
+        "text": "Village name comes first, followed by vineyard name (e.g. Piesporter Goldtr\u00f6pfchen); the limitation is that lower-quality wines from many neighbouring vineyards can be labelled the same way as single-vineyard wines, with nothing on the label to distinguish them"
+      },
+      {
+        "id": "c",
+        "text": "Only the region name is permitted on labels; individual vineyard names are not legally defined in the German system"
+      },
+      {
+        "id": "d",
+        "text": "Vineyard names are only permitted on Pr\u00e4dikatswein labels; Qualit\u00e4tsweine must use the regional name only"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "German label convention places the **village name first, followed by the vineyard name** \u2014 for example, Piesporter Goldtr\u00f6pfchen (from Goldtr\u00f6pfchen vineyard in Piesport village). The key limitation is that **lower-quality wines made from grapes sourced from many neighbouring vineyards can be labelled in exactly the same way** as wines from a single vineyard (e.g. Piesporter Michelsberg). **There is nothing on the label to indicate whether a wine is from a single vineyard or not** \u2014 though retail price is normally a reliable indicator.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "labelling",
+      "vineyard-naming",
+      "wine-laws"
+    ]
+  },
+  {
+    "id": "q-ww-059",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 3,
+    "stem": "Why can Pr\u00e4dikat categories such as Kabinett and Sp\u00e4tlese be produced as both dry and sweet styles, and how does the winemaker's choice affect how the wine should be understood?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "These categories can only be dry or only sweet depending on region; the winemaker has no choice as it is determined by the local wine law"
+      },
+      {
+        "id": "b",
+        "text": "Because Germany allows winemakers to add S\u00fcssreserve to any Pr\u00e4dikatswein; the amount added determines sweetness while the category indicates the minimum alcohol level"
+      },
+      {
+        "id": "c",
+        "text": "Because Pr\u00e4dikat categories are defined solely by must weight at harvest, not by final sweetness; each Pr\u00e4dikat is therefore an indicator of style (ripeness and concentration) rather than sweetness, and the same must weight can yield wines ranging from dry to medium-sweet depending on how far fermentation is allowed to proceed"
+      },
+      {
+        "id": "d",
+        "text": "Because EU law prevents Germany from defining sweetness within any wine category above Qualit\u00e4tswein; winemakers must follow regional conventions instead"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The key insight from the materials is that **Pr\u00e4dikat categories are defined solely by minimum must weight at harvest \u2014 not by final sweetness**. The materials explicitly state that 'the key to understanding Pr\u00e4dikatsweine is to think of them as an indicator of style'. Because the same level of must weight can yield wines ranging from dry to medium-sweet depending on **how far fermentation is allowed to proceed**, the same category can produce multiple sweetness levels. Up to Auslese it is possible for wines to be made in a dry style.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "pradikatswein",
+      "sweetness",
+      "must-weight"
+    ]
+  },
+  {
+    "id": "q-ww-060",
+    "subjectId": "wset-l3",
+    "topicId": "wines-of-world",
+    "type": "mcq",
+    "difficulty": 3,
+    "stem": "What is unusual about Silvaner's position in Franken compared with the rest of Germany, and what viticultural challenge does this create?",
+    "media": {
+      "type": null,
+      "url": null,
+      "alt": null
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": "Silvaner is the most planted variety in Franken but produces wines of poor quality there \u2014 the opposite of its reputation elsewhere in Germany"
+      },
+      {
+        "id": "b",
+        "text": "Silvaner requires south-facing slopes in Franken just as Riesling does elsewhere; the challenge is that Franken has fewer suitable slopes than other German regions"
+      },
+      {
+        "id": "c",
+        "text": "Silvaner achieves high must weights more easily than Riesling in Franken due to the warmer climate, but its thin skin makes it prone to botrytis in wet years"
+      },
+      {
+        "id": "d",
+        "text": "Silvaner is neither the most widely planted nor the most prestigious variety in the rest of Germany, but in Franken it is the most prestigious; however, its early flowering and ripening makes it susceptible to frost damage, so it is planted only in the warmest sites"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "The situation is unusual because **Silvaner is typically only the third most planted white variety nationally and rarely produces high-quality wines in Germany as a whole \u2014 but in Franken it is considered the most prestigious variety**. The viticultural challenge is that **Silvaner flowers and ripens early**, making it **susceptible to frost damage**. To manage this risk, it is **planted only in the warmest sites**. In these favoured locations, Silvaner achieves a concentration that is rarely matched elsewhere in Germany.",
+    "tags": [
+      "wines-of-world",
+      "germany",
+      "franken",
+      "silvaner",
+      "frost-susceptibility"
+    ]
   }
-]    
+]
