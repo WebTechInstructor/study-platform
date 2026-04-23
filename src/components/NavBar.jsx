@@ -6,6 +6,7 @@ const VIEWS = [
   { id: 'quiz',       label: 'Quiz'       },
   { id: 'flashcards', label: 'Flashcards' },
   { id: 'media',      label: 'Media'      },
+  { id: 'results',    label: 'Results'    }, 
 ]
 
 function PersonIcon() {
