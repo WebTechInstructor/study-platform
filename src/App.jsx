@@ -1,3 +1,4 @@
+import { useState, useCallback } from 'react'
 import { useContent } from './context/ContentContext.jsx'
 import { useProgress } from './context/ProgressContext.jsx'
 import { useRouter } from './hooks/useRouter.js'
@@ -11,24 +12,36 @@ import { Media } from './views/Media/index.jsx'
 import { Results } from './views/Results/index.jsx'
 
 const VIEWS = { dashboard: Dashboard, quiz: Quiz, flashcards: Flashcards, media: Media, results: Results }
+const WELCOMED_KEY = 'studyplatform:welcomed'
 
 export default function App() {
   const { appCfg, subject, questions, media, loading, error } = useContent()
   const { progress, sessions, prefs, saveAttempt, saveSession, savePrefs } = useProgress()
   const { currentView, navigate } = useRouter()
 
+  // localStorage flag — persists across sessions, never resets
+  const [welcomed, setWelcomed] = useState(
+    () => localStorage.getItem(WELCOMED_KEY) === 'true'
+  )
+
+  const handleStart = useCallback(() => {
+    localStorage.setItem(WELCOMED_KEY, 'true')
+    setWelcomed(true)
+    navigate('dashboard')
+  }, [navigate])
+
   if (loading) return <LoadingScreen />
   if (error)   return <ErrorScreen onRetry={() => window.location.reload()} />
 
-  const isFirstRun = Object.keys(progress.questionHistory).length === 0 && sessions.length === 0
-  const appConfig  = { ...appCfg.app, subjectTitle: subject.title }
+  const appConfig = { ...appCfg.app, subjectTitle: subject.title }
 
-  if (isFirstRun && currentView === 'dashboard') {
+  // Show welcome screen until student explicitly clicks Start studying
+  if (!welcomed) {
     return (
       <>
         <NavBar currentView={currentView} onNavigate={navigate} user={null} appConfig={appConfig} />
         <main className="app-main">
-          <Welcome subject={subject} onStart={() => navigate('dashboard')} />
+          <Welcome subject={subject} onStart={handleStart} />
         </main>
       </>
     )

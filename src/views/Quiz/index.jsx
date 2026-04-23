@@ -9,12 +9,12 @@ import { ResultsSummary } from './ResultsSummary.jsx'
 function genId(prefix) { return `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2,7)}` }
 
 export function Quiz({ subject, questions, progress, prefs, onSaveAttempt, onSaveSession, onSavePrefs, onNavigate }) {
-  const [phase, setPhase]           = useState('config')
-  const [sessionId]                 = useState(() => genId('sess'))
+  const [phase, setPhase]             = useState('config')
+  const [sessionId]                   = useState(() => genId('sess'))
   const [questionIds, setQuestionIds] = useState([])
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [results, setResults]       = useState([])
-  const [lastResult, setLastResult] = useState(null)
+  const [results, setResults]         = useState([])
+  const [lastResult, setLastResult]   = useState(null)
 
   const handleStart = useCallback((config) => {
     onSavePrefs({ [subject.id]: { topicId: config.topicId, difficulty: config.difficulty } })
@@ -43,6 +43,13 @@ export function Quiz({ subject, questions, progress, prefs, onSaveAttempt, onSav
     setCurrentIndex(0); setResults([]); setLastResult(null); setPhase('active')
   }, [questions])
 
+  // Saves the weak topic to prefs then resets phase to config — 
+  // can't just navigate since hash is already #quiz so router won't re-render
+  const handleStudyTopic = useCallback((topicId) => {
+    onSavePrefs({ [subject.id]: { topicId, difficulty: null } })
+    setPhase('config')
+  }, [subject.id, onSavePrefs])
+
   if (phase === 'config') return <SessionConfig subject={subject} questions={questions} savedPrefs={prefs[subject.id] ?? {}} onStart={handleStart} />
   if (phase === 'active') {
     const question = questions.find(q => q.id === questionIds[currentIndex])
@@ -51,7 +58,7 @@ export function Quiz({ subject, questions, progress, prefs, onSaveAttempt, onSav
   }
   if (phase === 'complete') {
     const summary = completeSession(sessionId, results, questions, { subjectId: subject.id, mode: 'practice', topicId: null }, subject.weakTopicThreshold)
-    return <ResultsSummary summary={summary} questions={questions} topics={subject.topics} subject={subject} onRetryMissed={handleRetryMissed} onNewSession={() => setPhase('config')} onNavigate={onNavigate} />
+    return <ResultsSummary summary={summary} questions={questions} topics={subject.topics} subject={subject} onRetryMissed={handleRetryMissed} onNewSession={() => setPhase('config')} onNavigate={onNavigate} onSavePrefs={onSavePrefs} onStudyTopic={handleStudyTopic} />
   }
   return null
 }

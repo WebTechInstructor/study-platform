@@ -12,7 +12,7 @@ function formatDate(iso) {
   return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
 }
 
-export function ResultsSummary({ summary, questions, topics, subject, onRetryMissed, onNewSession, onNavigate }) {
+export function ResultsSummary({ summary, questions, topics, subject, onRetryMissed, onNewSession, onNavigate, onSavePrefs, onStudyTopic }) {
   const [tab, setTab] = useState('summary')
   const [expanded, setExpanded] = useState(() => new Set(summary.missedQuestionIds))
   const { score } = summary
@@ -69,11 +69,21 @@ export function ResultsSummary({ summary, questions, topics, subject, onRetryMis
 
           <div style={{ display: 'flex', gap: 8, marginTop: 4, marginBottom: 8 }}>
             <button style={{ flex: 1 }} onClick={() => setTab('review')}>Review answers</button>
-            {weakTopic && <button className="btn-info" style={{ flex: 1 }} onClick={() => onNavigate('quiz')}>Study {weakTopic.title}</button>}
-            {summary.weakTopics.length > 1 && <button className="btn-info" style={{ flex: 1 }} onClick={() => onNavigate('quiz')}>Study weak topics</button>}
+            {weakTopic && (
+              <button className="btn-info" style={{ flex: 1 }} onClick={() => onStudyTopic(weakTopic.id)}>
+                Study {weakTopic.title}
+              </button>
+            )}
+            {summary.weakTopics.length > 1 && (
+              <button className="btn-info" style={{ flex: 1 }} onClick={() => onStudyTopic(summary.weakTopics[0])}>
+                Study weak topics
+              </button>
+            )}
           </div>
           <div style={{ display: 'flex', gap: 8 }}>
-            {summary.missedQuestionIds.length > 0 && <button style={{ flex: 1 }} onClick={() => onRetryMissed(summary.missedQuestionIds)}>Retry missed</button>}
+            {summary.missedQuestionIds.length > 0 && (
+              <button style={{ flex: 1 }} onClick={() => onRetryMissed(summary.missedQuestionIds)}>Retry missed</button>
+            )}
             <button style={{ flex: 1 }} onClick={onNewSession}>New session</button>
           </div>
         </>

@@ -6,7 +6,7 @@ import { EmptyState } from '../../components/index.jsx'
 function fmt(iso) { return iso ? new Date(iso).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '' }
 function duration(a, b) { if(!a||!b) return null; const s=Math.round((new Date(b)-new Date(a))/1000); const m=Math.floor(s/60); return m>0?`${m} min ${s%60} sec`:`${s} sec` }
 
-export function Results({ subject, questions, sessions, onNavigate }) {
+export function Results({ subject, questions, sessions, onNavigate, onSavePrefs }) {
   const [selectedId, setSelectedId] = useState(() => sessions.length > 0 ? sessions[sessions.length-1].id : null)
   const [tab, setTab] = useState('summary')
 

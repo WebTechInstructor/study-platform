@@ -579,3 +579,90 @@ a { color: var(--info); }
 .session-pill { font-size: 12px; padding: 2px 9px; border-radius: var(--radius-xl); }
 .session-pill.pass { background: var(--accent-bg); color: var(--accent-text); }
 .session-pill.fail { background: var(--danger-bg); color: var(--danger-text); }
+
+/* ── Welcome steps ───────────────────────────────────────────────────────── */
+
+.welcome-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 auto 24px;
+  max-width: 360px;
+  text-align: left;
+}
+
+.welcome-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 12px 14px;
+  background: var(--bg-card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.welcome-step-num {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--accent-bg);
+  color: var(--accent-text);
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.welcome-step-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+.welcome-step-desc {
+  font-size: 12px;
+  color: var(--text-2);
+  line-height: 1.5;
+}
+
+/* ── Vineyard background (desktop only) ──────────────────────────────────── */
+
+@media (min-width: 641px) {
+  body {
+    background-image: url('https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1920&q=60&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  @media (prefers-color-scheme: light) {
+    body::before {
+      background: rgba(247, 245, 242, 0.88);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body::before {
+      background: rgba(20, 18, 16, 0.90);
+    }
+  }
+
+  .navbar,
+  .app-main,
+  .navbar-menu {
+    position: relative;
+    z-index: 1;
+  }
+}
