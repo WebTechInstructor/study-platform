@@ -35,14 +35,14 @@ export function NavBar({ currentView, onNavigate, user, appConfig }) {
   return (
     <>
       <nav className="navbar">
-        <div className="navbar-logo">
-          {svgContent
-            ? <span className="navbar-logo-svg" dangerouslySetInnerHTML={{ __html: svgContent }} />
-            : appConfig?.logoUrl
-            ? <img src={appConfig.logoUrl} className="navbar-logo-img" alt={appConfig.name} />
-            : <span className="navbar-logo-text">{appConfig?.name}</span>
-          }
-        </div>
+        <div className="navbar-logo" onClick={() => handleNavigate('dashboard')} style={{ cursor: 'pointer' }}>
+  {svgContent
+    ? <span className="navbar-logo-svg" dangerouslySetInnerHTML={{ __html: svgContent }} />
+    : appConfig?.logoUrl
+    ? <img src={appConfig.logoUrl} className="navbar-logo-img" alt={appConfig.name} />
+    : <span className="navbar-logo-text">{appConfig?.name}</span>
+  }
+</div>
         {appConfig?.subjectTitle && <div className="navbar-subject">{appConfig.subjectTitle}</div>}
         <div className="navbar-items navbar-desktop-only">
           {VIEWS.map(v => (
